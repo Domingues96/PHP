@@ -11,7 +11,7 @@ include_once'topo.php';
     <input type="text" name="valor"/><br>
     Categoria:
     <select name="categoria">
-        <option value="eletronico"> Eletrônico</option>
+        <option value="eletronico"> Eletronico</option>
         <option value="roupas"> Roupas</option>
         <option value="dvd"> DVD</option>
         </select>

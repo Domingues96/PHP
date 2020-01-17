@@ -22,7 +22,7 @@ if(mysqli_num_rows($resultado)==1){
     Categoria:
     <select name="categoria">
     <option value="<?php echo $reg["categoria"]; ?>"><?php echo $reg["categoria"]; ?></option>
-        <option value="eletronico"> Eletrônico</option>
+        <option value="eletronico"> Eletronico</option>
         <option value="roupas"> Roupas</option>
         <option value="dvd"> DVD</option>
         </select>
