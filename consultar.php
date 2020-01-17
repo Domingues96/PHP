@@ -34,8 +34,8 @@ while($linha = mysqli_fetch_array($resultado)){
 <td><?php echo $linha["estoque"];?></td>
 <td><?php echo $linha["valor"];?></td>
 <td><?php echo $linha["categoria"];?></td>
-<td>...</td>
-<td><a href="#" onclick="excluir(<?php echo $linha ['idproduto'];?>)">x</a></td>
+<td><a href="editar.php?id=<?php echo $linha['idproduto'];?>">...</a></td>
+<td><a href="#" onclick="excluir(<?php echo $linha['idproduto'];?>)">x</a></td>
 </tr>
 
 <?php } ?>
