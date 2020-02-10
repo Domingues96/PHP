@@ -1,3 +1,3 @@
 <?php
-$con=mysqli_connect("localhost","root","","aula7");
+$con=mysqli_connect("localhost","root","SenhaTeste","PHP");
 ?>

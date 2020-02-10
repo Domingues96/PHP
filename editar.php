@@ -1,11 +1,14 @@
+<head>
+<link href="projeto.css" rel="stylesheet">
+</head>
 <?php 
-include_once'topo.php';
+include_once 'topo.php';
 ?>
 <?php
 //pegar o id que o consultar está mandando
 $id = $_GET["id"];
 $sql = "select *from produto where idproduto =".$id;
-include_once'conexao.php';
+include_once 'conexao.php';
 $resultado = mysqli_query($con,$sql);
 if(mysqli_num_rows($resultado)==1){
     $reg = mysqli_fetch_array($resultado);
@@ -30,5 +33,5 @@ if(mysqli_num_rows($resultado)==1){
         <input type="hidden" name="id" value="<?php echo $reg["idproduto"]; ?>">
     </form>
 <?php
-include_once'rodape.php';
+include_once 'rodape.php';
 ?>

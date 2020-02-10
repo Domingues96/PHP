@@ -1,3 +1,6 @@
+<head>
+<link href="projeto.css" rel="stylesheet">
+</head>
 <?php
 //pegar o id
 $id = $_GET["id"];

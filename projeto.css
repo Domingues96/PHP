@@ -1,0 +1,11 @@
+h2 {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+
+body {
+    background-color: grey;
+}

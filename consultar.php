@@ -1,3 +1,6 @@
+<head>
+<link href="projeto.css" rel="stylesheet">
+</head>
 <?php
 include_once'topo.php';
 ?>
@@ -11,7 +14,7 @@ function excluir(id){
 <h3>Consulta de Produtos</h3>
 <?php
 $sql="select *from produto order by nome ASC";
-include_once'conexao.php';
+include_once 'conexao.php';
 $resultado = mysqli_query($con,$sql);
 if (mysqli_num_rows($resultado) > 0){
 ?>

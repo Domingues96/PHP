@@ -1,5 +1,8 @@
+<head>
+<link href="projeto.css" rel="stylesheet">
+</head>
 <?php 
-include_once'topo.php';
+include_once 'topo.php';
 ?>
     <h3>Novo Produto</h3>
     <form action="gravar.php" method="post">
@@ -12,8 +15,8 @@ include_once'topo.php';
     Categoria:
     <select name="categoria">
         <option value="eletronico"> Eletronico</option>
-        <option value="roupas"> Roupas</option>
-        <option value="dvd"> DVD</option>
+        <option value="game"> Game</option>
+        <option value="perifericos"> Periféricos</option>
         </select>
         <input type="submit" value="NOVO PRODUTO">
     </form>
